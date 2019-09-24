@@ -3,6 +3,7 @@
 /* Base Imports */
 @import url("./assets/base/variables.css");
 @import url("./assets/base/home-base.css");
+
 /* Home */
 @import url("./assets/modules/home-header-module.css"); /*Header & Navbar*/
 @import url("./assets/modules/home-logo-module.css"); /* Logo */
@@ -11,4 +12,6 @@
 @import url("./assets/modules/home-gallery-module.css"); /* Galleri */
 @import url("./assets/modules/home-info-module.css"); /* Info */
 @import url("./assets/modules/home-footer-module.css"); /* Footer */
+
+/* Shop */
 
