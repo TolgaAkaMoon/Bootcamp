@@ -21,10 +21,10 @@ Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt h
 ### Tekniske krav
 
 **Client-Side**
-* Semantisk korrekt HTML
-* Modulært opbygget CSS (Flere css filer)
-* Hente data ved hjælp af fetch-api'et. (HTML/ JSON)
-* Begrænset data udtræk ved hjælp af url parametre
+* Semantisk korrekt HTML *
+* Modulært opbygget CSS (Flere css filer) *
+* Hente data ved hjælp af fetch-api'et. (HTML/ JSON) *
+* Begrænset data udtræk ved hjælp af url parametre -
 
 ### Design og layout
 Du skal udarbejde en layoutanalyse, som redegør for hvordan elementerne på hjemmesiden er bygget op.<br>

@@ -2,14 +2,21 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 /* Base Imports */
 @import url("./assets/base/variables.css");
-@import url("./assets/base/home-base.css");
+@import url("./assets/base/shop-base.css");
 
 /* Home */
 @import url("./assets/modules/home-header-module.css"); /*Header & Navbar*/
 @import url("./assets/modules/home-logo-module.css"); /* Logo */
-@import url("./assets/modules/home-banner-module.css"); /* banner */
-@import url("./assets/modules/home-slideshow-module.css"); /* Slideshow */
-@import url("./assets/modules/home-gallery-module.css"); /* Galleri */
-@import url("./assets/modules/home-info-module.css"); /* Info */
+@import url("./assets/modules/shop-main-module.css");
+@import url("./assets/modules/shop-list-module.css");
+@import url("./assets/modules/shop-shopby-module.css");
+@import url("./assets/modules/shop-products-module.css");
+
+
+
+
+
 @import url("./assets/modules/home-footer-module.css"); /* Footer */
+
+/* Shop */
 
