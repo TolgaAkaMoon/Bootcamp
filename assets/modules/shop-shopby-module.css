@@ -27,6 +27,7 @@
     color: #706c61;
     font-weight: bold;
     line-height: 50px;
+    cursor: pointer;
 }
 
 .unorderedlist__list2 {
@@ -35,6 +36,7 @@
     color: #a39161;
     font-weight: normal;
     line-height: normal;
+    cursor: pointer;
 }
 
 .main__links2 {
@@ -42,4 +44,5 @@
     margin-left: 38px;
     color: #a39161;
     line-height: 10px;
+    cursor: pointer;
 }

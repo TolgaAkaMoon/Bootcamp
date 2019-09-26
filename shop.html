@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="shop.css">
+    <script src="https://kit.fontawesome.com/baedcbaf1b.js"></script>
     <title>HI FI | HOME</title>
 </head>
 <body>
     <header class="header">
-        <img class="header__contact" src="assets/img2/top-call.png">
-        <img class="header__contact" src="assets/img2/top-mail.png">
-        <img class="header__contact" src="assets/img2/top-map.png">
+        <img class="header__logo" src="./assets/img2/logo-white.png">
+
+        <navbar class="header__navbar">
+            <form class="navbar__search">
+                <input class="search__input" type="text" placeholder="Search entire store here...">
+                <i class="fas fa-search search__icon"></i>
+            </form>
+            <i class="fas fa-user navbar__account"><a href="" class="account__link">Account</a></i>
+            <i class="fas fa-shopping-cart navbar__cart"><a href="" class="cart__link">cart</a></i>
+            <img class="navbar__contact" src="assets/img2/top-map.png">
+            <img class="navbar__contact" src="assets/img2/top-call.png">
+            <img class="navbar__contact" src="assets/img2/top-mail.png">
+        </navbar>
+    </form>
     </header>
     <navbar class="navigation">
         <ul class="navigation__unorderedlist">
@@ -63,36 +75,101 @@
                 <li class="unorderedlist__list2">£12,000.00 and above (13)</li>
             </ul>
             <h4 class="shopby__subtitle2">Manufacturer</h4>
-            <p class="main__links2">Arcam(5)</p>
-            <p class="main__links2">Astell and Kern (1)</p>
-            <p class="main__links2">ATC (7)</p>
-            <p class="main__links2">Audiolab (4)</p>
-            <p class="main__links2">AVID (3)</p>
-            <p class="main__links2">Chord Electronics (17)</p>
-            <p class="main__links2">Classé (2)</p>
-            <p class="main__links2">Denon (3)</p>
-            <p class="main__links2">Devialet (6)</p>
-            <p class="main__links2">EAT (2)</p>
-            <p class="main__links2">Graham Slee (2)</p>
-            <p class="main__links2">Linn (4)</p>
-            <p class="main__links2">Marantz (5)</p>
-            <p class="main__links2">Merdian (9)</p>
-            <p class="main__links2">Naim (13)</p>
-            <p class="main__links2">PrimaLuna (10)</p>
-            <p class="main__links2">Primare (4)</p>
-            <p class="main__links2">Quad (9)</p>
-            <p class="main__links2">Rotel (8)</p>
-            <p class="main__links2">Sennheiser (1)</p>
-            <p class="main__links2">Sugden (11)</p>
-            <p class="main__links2">Technics (1)</p>
-            <p class="main__links2">Trinnov (1)</p>
-            <p class="main__links2">Yamaha (5)</p>
+            <p class="main__links2">Arcam(<span class="links2__counter">5</span>)</p>
+            <p class="main__links2">Astell and Kern (<span class="links2__counter">1</span>)</p>
+            <p class="main__links2">ATC (<span class="links2__counter">7</span>)</p>
+            <p class="main__links2">Audiolab (<span class="links2__counter">4</span>)</p>
+            <p class="main__links2">AVID (<span class="links2__counter">3</span>)</p>
+            <p class="main__links2">Chord Electronics (<span class="links2__counter">17</span>)</p>
+            <p class="main__links2">Classé (<span class="links2__counter">2</span>)</p>
+            <p class="main__links2">Denon (<span class="links2__counter">3</span>)</p>
+            <p class="main__links2">Devialet (<span class="links2__counter">6</span>)</p>
+            <p class="main__links2">EAT (<span class="links2__counter">2</span>)</p>
+            <p class="main__links2">Graham Slee (<span class="links2__counter">2</span>)</p>
+            <p class="main__links2">Linn (<span class="links2__counter">4</span>)</p>
+            <p class="main__links2">Marantz (<span class="links2__counter">5</span>)</p>
+            <p class="main__links2">Merdian (<span class="links2__counter">9</span>)</p>
+            <p class="main__links2">Naim (<span class="links2__counter">13</span>)</p>
+            <p class="main__links2">PrimaLuna (<span class="links2__counter">10</span>)</p>
+            <p class="main__links2">Primare (<span class="links2__counter">4</span>)</p>
+            <p class="main__links2">Quad (<span class="links2__counter">9</span>)</p>
+            <p class="main__links2">Rotel (<span class="links2__counter">8</span>)</p>
+            <p class="main__links2">Sennheiser (<span class="links2__counter">1</span>)</p>
+            <p class="main__links2">Sugden (<span class="links2__counter">11</span>)</p>
+            <p class="main__links2">Technics (<span class="links2__counter">1</span>)</p>
+            <p class="main__links2">Trinnov (<span class="links2__counter">1</span>)</p>
+            <p class="main__links2">Yamaha (<span class="links2__counter">5</span>)</p>
         </section>
+
+        <form class="main__form">
+            <h3 class="form__title">Amplifiers</h3>
+
+            <div class="form__container">
+                <p class="container__subtitle">Sort by: <select class="container__select"></p>
+                    <option class="select__answer" value="Price">Price</option>
+                    <option class="select__answer" value="Date">Date</option>
+                    <option class="select__answer" value="Available">Available</option>
+                </select>
+                <p class="container__subtitle2">&#11014;</p>
+
+                
+            <p class="container__text">View as: <div class="container__square">&#x25A0; &#x25A0; &#x25A0; &#x25A0; </div> <span class="container__burger">&#9776;</span> </p>
+
+            <div class="form__containerNew">
+                <h5 class="containerNew__items"><span class="items__totalItems">144</span> Item(s)</h5>
+                <p class="containerNew__subtitleNew">SHOW: <select class="containerNew__selectNew"></p>
+                    <option class="select__answerNew" value="100">100</option>
+                    <option class="select__answerNew" value="300">300</option>
+                    <option class="select__answerNew" value="All">All</option>
+                </select>
+            </div>
+
+            </div>
+        </form>
 
         <section class="main__shop">
 
         </section>
+
+        <section class="main__categories3">
+            <ul class="categories3__unorderedlist3">Manufacturer
+                <li class="unorderedlist3__list">Arcam</li>
+                <li class="unorderedlist3__list">Astell and Kern</li>
+                <li class="unorderedlist3__list">ATC</li>
+                <li class="unorderedlist3__list">Audiolab</li>
+                <li class="unorderedlist3__list">Avid</li>
+                <li class="unorderedlist3__list">Chord Electronics</li>
+                <li class="unorderedlist3__list">Classé</li>
+            </ul>
+            <p class="categories3__links">View All</p>
+        </section>
+
     </main>
+
+
+
+
+
+
+
+        
+        <footer class="homeFooter">
+            <div class="homeFooter__container">
+                <p class="container__registeredTitle">Hi Fi Corner (Edinburgh) Ltd is registered in Scotland
+                    <span class="registeredTitle__Number">No: SC049298</span>
+                    <span class="registeredTitle__Subtitle">Registered office: 2 Joppa Rd, Edinburgh EH15 2EU</span></p>
+                <h6 class="container__links"><a class="links__refundAnker" href="">Returns & Refunds</a> | <a class="links__privacyAnker" href="">Privacy Policy.</a></h6>
+            </div>
+            <div class="homeFooter__socialsContainer">
+                <img class="socialsContainer__payBrands" src="./assets/img2/pay_logos.png">
+                <figure class="socialsContainer__socials">
+                    <img class="" src="./assets/img2/footer-facebook.png">
+                    <img class="" src="./assets/img2/footer-youtube.png">
+                    <img class="" src="./assets/img2/footer-twitter.png">
+                    <img class="" src="./assets/img2/footer-linkedin.png">
+                </figure>
+            </div>
+        </footer>
 
     <script src="./assets/js/shop.js"></script>
 </body>

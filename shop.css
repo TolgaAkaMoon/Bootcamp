@@ -3,15 +3,15 @@
 /* Base Imports */
 @import url("./assets/base/variables.css");
 @import url("./assets/base/shop-base.css");
-
 /* Home */
-@import url("./assets/modules/home-header-module.css"); /*Header & Navbar*/
+@import url("./assets/modules/shop-header-module.css"); /*Header & Navbar*/
 @import url("./assets/modules/home-logo-module.css"); /* Logo */
 @import url("./assets/modules/shop-main-module.css");
 @import url("./assets/modules/shop-list-module.css");
 @import url("./assets/modules/shop-shopby-module.css");
 @import url("./assets/modules/shop-products-module.css");
-
+@import url("./assets/modules/shop-form-module.css");
+@import url("./assets/modules/shop-manufacturer-module.css");
 
 
 

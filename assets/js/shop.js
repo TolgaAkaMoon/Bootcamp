@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .then(function (resultat) {
             resultat.produkter.forEach(produkt => {
+                let brands = document.querySelector(".shopby__subtitle2");
+                document.querySelector(".items__totalItems").textContent = resultat.produkter.length;
                 if (produkt.available == "no") {
                     mainElement.innerHTML += `
                     <article class="shop__products">
@@ -16,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     </figure>
                     <h4 class="products__title">${produkt.title}</h4>
                     <p class="products__subtitle">£${produkt.price}</p>
+                    
                     </article>`;
 
                 } else if (produkt.sale == "yes") {
@@ -40,7 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     <button class="products__button">ADD TO CART</button>
                     </article>`;
                     }
-
             });
         });
 });

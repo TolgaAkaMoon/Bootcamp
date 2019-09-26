@@ -1,5 +1,6 @@
 .main__shop {
     display: grid;
+    margin-top: 120px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(5, 400px);
     grid-column: 2;
@@ -10,16 +11,17 @@
 .shop__products {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: stretch;
     align-items: center;
 }
 
 .products__figure {
     display: flex;
+    min-height: 180px;
     align-items: center;
     justify-content: center;
     border: 1px solid rgba(112,108,97, 0.5);
-    height: 200px;
+    height: 180px;
     width: 160px;
     margin: 0;
     padding: 0;
@@ -28,8 +30,9 @@
 }
 
 .figure__img {
-    height: 80px;
-    max-height: 80px;
+    height: auto;
+    width: 155px;
+    max-height: 50px;
 }
 
 .products__title {
@@ -64,5 +67,5 @@
     height: 35px;
     font-weight: bold;
     outline: none;
-
+    cursor: pointer;
 }
