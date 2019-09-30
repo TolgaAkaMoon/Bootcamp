@@ -9,10 +9,12 @@
 </head>
 <body>
     <header class="header">
-        <button class="header__button">&#9993; | Subscribe</button>
-        <img class="header__contact" src="assets/img2/top-call.png">
-        <img class="header__contact" src="assets/img2/top-mail.png">
-        <img class="header__contact" src="assets/img2/top-map.png">
+        <div class="header__box">
+            <button class="box__button">&#9993; | Subscribe</button>
+            <img class="box__contact" src="assets/img2/top-mail.png">
+            <img class="box__contact" src="assets/img2/top-call.png">
+            <img class="box__contact" src="assets/img2/top-map.png">
+        </div>
     </header>
     <navbar class="navigation">
         <ul class="navigation__unorderedlist">
@@ -21,7 +23,7 @@
             <li class="unorderedlist__link"><a href="home" class="link__anker">BRANDS</a></li>
             <li class="unorderedlist__link"><a href="home" class="link__anker">BLOG</a></li>
             <li class="unorderedlist__link"><a href="home" class="link__anker">EVENTS</a></li>
-            <li class="unorderedlist__link"><a href="home" class="link__anker">SHOP</a></li>
+            <li class="unorderedlist__link"><a href="shopgallery.html" class="link__anker">SHOP</a></li>
             <li class="unorderedlist__link"><a href="home" class="link__anker">CONTACT US</a></li>
         </ul>
     </navbar>
@@ -35,8 +37,8 @@
         </section>
         <section class="main__slideshow">
             <!-- Inner HTML From JavaScript -->
-            <P class="slideshow__arrowLeft">&#x0003C;</P>
-            <p class="slideshow__arrowRight">&#x0003E;</p>
+            <img class="arrows__arrowLeft" src="./assets/img2/slider-prev.png">
+            <img class="arrows__arrowRight" src="./assets/img2/slider-next.png">
         </section>
         <section class="main__gallery">
             <figure class="gallery__boxLeft">
@@ -66,24 +68,26 @@
                 <p class="container__subtitle">HAVE A LOOK IN OUR ONLINE SHOP FOR GREAT PRODUCTS AND DEALS.</p>
             </article>
         </section>
-        <footer class="homeFooter">
-            <div class="homeFooter__container">
-                <p class="container__registeredTitle">Hi Fi Corner (Edinburgh) Ltd is registered in Scotland
-                    <span class="registeredTitle__Number">No: SC049298</span>
-                    <span class="registeredTitle__Subtitle">Registered office: 2 Joppa Rd, Edinburgh EH15 2EU</span></p>
-                <h6 class="container__links"><a class="links__refundAnker" href="">Returns & Refunds</a> | <a class="links__privacyAnker" href="">Privacy Policy.</a></h6>
-            </div>
-            <div class="homeFooter__socialsContainer">
-                <img class="socialsContainer__payBrands" src="./assets/img2/pay_logos.png">
-                <figure class="socialsContainer__socials">
-                    <img class="" src="./assets/img2/footer-facebook.png">
-                    <img class="" src="./assets/img2/footer-youtube.png">
-                    <img class="" src="./assets/img2/footer-twitter.png">
-                    <img class="" src="./assets/img2/footer-linkedin.png">
-                </figure>
-            </div>
-        </footer>
     </main>
+
+
+    <footer class="homeFooter">
+        <div class="homeFooter__container">
+            <p class="container__registeredTitle">Hi Fi Corner (Edinburgh) Ltd is registered in Scotland
+                <span class="registeredTitle__Number">No: SC049298</span>
+                <span class="registeredTitle__Subtitle">Registered office: 2 Joppa Rd, Edinburgh EH15 2EU</span></p>
+            <h6 class="container__links"><a class="links__refundAnker" href="">Returns & Refunds</a> | <a class="links__privacyAnker" href="">Privacy Policy.</a></h6>
+        </div>
+        <div class="homeFooter__socialsContainer">
+            <img class="socialsContainer__payBrands" src="./assets/img2/pay_logos.png">
+            <figure class="socialsContainer__socials">
+                <img class="" src="./assets/img2/footer-facebook.png">
+                <img class="" src="./assets/img2/footer-youtube.png">
+                <img class="" src="./assets/img2/footer-twitter.png">
+                <img class="" src="./assets/img2/footer-linkedin.png">
+            </figure>
+        </div>
+    </footer>
 
     <script src="./assets/js/index.js"></script>
 </body>

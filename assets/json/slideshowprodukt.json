@@ -16,6 +16,7 @@
             "title": "ROTEL A10 STEREO",
             "brand": "Rotel",
             "price": "389.95",
+            "oldprice": "429.00",
             "sale": "no",
             "available": "no"
         },
@@ -35,6 +36,7 @@
             "title": "YAMAHA A-S701 STEREO AMPLIFIER",
             "brand": "Yamaha",
             "price": "579.00",
+            "oldprice": "929.00",
             "sale": "no",
             "available": "yes"
         },
@@ -44,6 +46,7 @@
             "title": "AUDIOLAB 6000A STEREO INTEGRATED AMPLIFIER",
             "brand": "Audiolab",
             "price": "599.00",
+            "oldprice": "929.00",
             "sale": "no",
             "available": "yes"
         },
@@ -53,6 +56,7 @@
             "title": "QUAD VENA MINI HIFI SYSTEM",
             "brand": "Quad",
             "price": "599.00",
+            "oldprice": "929.00",
             "sale": "no",
             "available": "yes"
         },
@@ -72,6 +76,7 @@
             "title": "ARCAM HDA SA10 INTERGRATED AMPLIFIER",
             "brand": "Arcam",
             "price": "699.00",
+            "oldprice": "929.00",
             "sale": "no",
             "available": "yes"
         },
@@ -81,6 +86,7 @@
             "title": "ROTEL A12 STEREO AMPLIFIER",
             "brand": "rotel",
             "price": "699.00",
+            "oldprice": "929.00",
             "sale": "no",
             "available": "no"
         },
@@ -90,6 +96,7 @@
             "title": "NAIM NAP 100 POWER AMPLIFIER",
             "brand": "Naim",
             "price": "799.00",
+            "oldprice": "929.00",
             "sale": "no",
             "available": "no"
         },
@@ -99,6 +106,7 @@
             "title": "MERIDIAN 218 ZONE CONTROLLER",
             "brand": "Meridian",
             "price": "845.00",
+            "oldprice": "929.00",
             "sale": "no",
             "available": "no"
         },
@@ -138,6 +146,7 @@
             "title": "YAMAHA A-S701 STEREO AMPLIFIER",
             "brand": "Yamaha",
             "price": "579.00",
+            "oldprice": "929.00",
             "sale": "no",
             "available": "yes"
         },
@@ -147,6 +156,7 @@
             "title": "AUDIOLAB 6000A STEREO INTEGRATED AMPLIFIER",
             "brand": "Audiolab",
             "price": "599.00",
+            "oldprice": "929.00",
             "sale": "no",
             "available": "yes"
         },
@@ -156,6 +166,7 @@
             "title": "QUAD VENA MINI HIFI SYSTEM",
             "brand": "Quad",
             "price": "599.00",
+            "oldprice": "929.00",
             "sale": "no",
             "available": "yes"
         },
@@ -175,6 +186,7 @@
             "title": "ARCAM HDA SA10 INTERGRATED AMPLIFIER",
             "brand": "Arcam",
             "price": "699.00",
+            "oldprice": "929.00",
             "sale": "no",
             "available": "yes"
         },
@@ -184,6 +196,7 @@
             "title": "ROTEL A12 STEREO AMPLIFIER",
             "brand": "rotel",
             "price": "699.00",
+            "oldprice": "929.00",
             "sale": "no",
             "available": "no"
         },
@@ -193,6 +206,7 @@
             "title": "NAIM NAP 100 POWER AMPLIFIER",
             "brand": "Naim",
             "price": "799.00",
+            "oldprice": "929.00",
             "sale": "no",
             "available": "no"
         },
@@ -202,6 +216,7 @@
             "title": "MERIDIAN 218 ZONE CONTROLLER",
             "brand": "Meridian",
             "price": "845.00",
+            "oldprice": "929.00",
             "sale": "no",
             "available": "no"
         }

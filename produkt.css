@@ -1,0 +1,18 @@
+/* FONT Inports*/
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+/* Base Imports */
+@import url("./assets/base/variables.css");
+@import url("./assets/base/produkt-base.css");
+/* Home */
+@import url("./assets/modules/shop-header-module.css"); /*Header & Navbar*/
+@import url("./assets/modules/shop-main-module.css");
+@import url("./assets/modules/produkt-main-module.css");
+@import url("./assets/modules/produkt-banner-module.css");
+@import url("./assets/modules/produkt-table-module.css");
+@import url("./assets/modules/produkt-checkout-module.css");
+
+
+@import url("./assets/modules/home-footer-module.css"); /* Footer */
+
+/* Shop */
+

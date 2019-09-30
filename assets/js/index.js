@@ -18,7 +18,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
                                     let htmlSlide = `
                                     <h2 class="slideshow__title">${result.produkter[counter].title}</h2>
-                                    <img class="slideshow__prima" src="${result.produkter[counter].image}">
+                                    <figure class="slideshow__slide">
+                                        <img class="slide__prima" src="${result.produkter[counter].image}">
+                                    </figure>
                                     `
                                     mainElement.innerHTML += htmlSlide;
 
