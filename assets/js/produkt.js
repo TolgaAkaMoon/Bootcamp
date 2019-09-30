@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     let params = new URLSearchParams(document.location.search);
-    const destinationId = parseInt(params.get("product_category"));
+    const destinationId = parseInt(params.get("destination_id"));
+    console.log(destinationId)
     let mainElement = document.querySelector(".main__section");
     
     const productsJson = fetch('./assets/json/slideshowprodukt.json')
@@ -10,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
             
         })
         .then((resultat) => {
-                console.log(resultat)
                  const produkt = resultat.produkter.find(function(destinationE){
                      return destinationE.id == destinationId;
                  })
