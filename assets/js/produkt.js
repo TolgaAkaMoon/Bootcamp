@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     </aside>
                     <section class="main__text">
                         <h1 class="main__h1">${produkt.title}</h1>
-                        <p class="main__other">See other Marantz products</p>
+                        <p class="main__other">See other ${produkt.brand} products</p>
                         <p class="main__text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam odio quisquam, nostrum amet 
                             quis magni modi, quae inventore ipsum neque dicta! Nihil labore reiciendis incidunt 
                             aliquid atque! Vero, unde sit.
